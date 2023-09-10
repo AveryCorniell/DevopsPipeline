@@ -1,10 +1,10 @@
-pipeline {
+pIipeline {
   agent any
   tools {
      maven 'M2_HOME'
   }
   environment {
-    registry = "ikecook1/devopspipeline2023"
+    registry = "averycorniell/devopspipeline"
     registryCredential = 'dockerUserID'
   }
   stages {
